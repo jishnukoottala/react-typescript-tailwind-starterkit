@@ -1,6 +1,6 @@
-# React-Typescript Boilerplate Starter Kit - The Basics
+# React-Typescript Tailwind CSS Starter Kit - The Basics
 
-here is a simple react-typescript boiler plate
+here is a simple react-typescript tailwind boiler plate
 
 tools used
 
