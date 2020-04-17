@@ -1,0 +1,64 @@
+{
+  "name": "react-typescript-simple-starter",
+  "version": "1.0.0",
+  "description": "a simple react typescript boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run watch:css && webpack-dev-server --mode development --open --hot",
+    "build": "npm run build:css &&  webpack --mode production",
+    "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
+    "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
+  },
+  "keywords": [
+    "react",
+    "typescript"
+  ],
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 11"
+  ],
+  "author": "jishnu koottala",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.9.0",
+    "@svgr/webpack": "^5.3.1",
+    "@types/react-router-dom": "^5.1.3",
+    "@types/webfontloader": "^1.6.29",
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "autoprefixer": "^9.7.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "html-webpack-plugin": "^4.0.4",
+    "postcss-cli": "^7.1.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.0.4",
+    "style-loader": "^1.1.3",
+    "tailwindcss": "^1.2.0",
+    "typescript": "^3.8.3",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.32",
+    "@types/react-dom": "^16.9.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "webfontloader": "^1.6.28"
+  }
+}
